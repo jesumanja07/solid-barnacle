@@ -11,7 +11,13 @@ public class Main {
     String home() {
         return "Mi primera pagina web en azure de Jesus Manjarres";
     }
-    
+    public class Main {
+  public static void main(String[] args) {
+    String name = "Jesus";
+    System.out.println(name);
+  }
+}
+
     @RequestMapping("/prueba")
     String home2() {
         return "Hello World - v4!";
